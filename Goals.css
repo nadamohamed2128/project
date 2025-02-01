@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 15px !important;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: none !important;
+    border: 1px solid #ddd;
+    border-radius: 10px !important;
+    background-color: #f9f6f6;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    background-color: #e6e2e2;
+}
+
+.status-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.status-group label {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px !important;
+    width: 150px !important;
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+    padding: 1px 85px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center !important;
+    min-width: 10px ;
+    color: #666;
+    transition: all 0.3s ease;
+
+}
+.finish {
+    margin: 0 !important;
+    margin-top: 5px !important;
+    margin-left: 20px !important;
+}
+
+
+.doneBtn{
+    background-color: white !important;
+    color: #a6a4a4;
+    border-color:#a6a4a4;
+    width: 190px;
+}
+
+.doneBtn:hover{
+    border-color:#a6a4a4 ;
+}
+
+
+.pendingBtn{
+    background-color: #fff!important;
+    color: #4a90e2;
+    border-color:#4a90e2;
+    width: 190px;
+
+}
+
+
+.pendingBtn:hover{
+    border-color:#4a90e2 ;
+
+}
+
+
+
+.status-group input[type="radio"] {
+    display: none;
+}
+
+
+
+.button {
+    width: 100px !important;
+    padding: 10px 8px !important;
+    background-color: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 310px !important;
+    margin-bottom: -20px !important;
+
+}
+
+.button:hover {
+    background-color: #007ac1;
+}
+
+button:active{
+    background-color: #007ac1;
+
+}
